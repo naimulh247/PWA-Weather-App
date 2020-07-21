@@ -1,2 +1,2 @@
 import React from 'react';
-import ReactDom from 
+import ReactDom from 'react-dom'

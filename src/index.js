@@ -1,4 +1,4 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<App />, docu)
+ReactDOM.render(<App />, document.e)

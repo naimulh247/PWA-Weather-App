@@ -18,7 +18,9 @@
     <script>
       if('serviceWorker' in navigator){
         window.addEventListener('load', ()=> {
-          navigator.serviceWorker.register('./serviceworker');
+          navigator.serviceWorker.register('./serviceworker')
+              .then((reg) => console.log('Success:', reg.scope))
+              .catch((err) => console.log('Failure', err));
         })
       }
     </script>

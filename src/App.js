@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
-import {fetchWeather} from './api/fetchWeather';
+import fetchWeather from './api/fetchWeather';
 
 
 const App = () =>{

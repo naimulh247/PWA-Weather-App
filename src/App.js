@@ -1,7 +1,4 @@
 import React from 'react';
-import useState from 'react';
-import fetchWeather from './api/fetchWeather';
-import './App.css';
 
 
 const App = () =>{

@@ -33,7 +33,7 @@ const App = () =>{
                     </div>
 
                     <div className="info">
-                        <img className="city-icon" src={`http://openweathermap.org/img/wn/10d@2x.png`} alt={weather.weather[0].description} />
+                        <img className="city-icon" src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt={weather.weather[0].description} />
                         <p> {weather.weather[0].description} </p>
                     </div>
 

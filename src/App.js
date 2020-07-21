@@ -1,4 +1,5 @@
 import React from 'react';
+import fetchWeather from './api/fetchWeather';
 
 
 const App = () =>{
